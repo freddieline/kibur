@@ -1,0 +1,33 @@
+<div my-enter="doSomething()" id="container">
+	<div class="text" id="header">
+						Grid <span id="gridID">6x6.5</span><br/>
+						Number of moves: {{numberOfMoves}}
+					</div>
+	<table id="content" cellspacing="0" cellpadding="50">	
+		<tr>
+			<td id="col1">
+				
+				<table id="grid1" cellspacing="8">
+				  <tr class="nborder" id={{y.rowId}} ng-repeat="y in _6X6Puzzle5.jumbled">
+				  	<td class="nborder-top cell"  tabindex="{{y.rowId}}{{x.id}}" style="background-color:{{x.bcolor}}" id="{{y.rowId}}{{x.id}}" ng-repeat="x in y.rowValues"></td>
+				  </tr>		
+				</table>
+				
+			</td>
+			<td  id="col2">
+				<table id="grid2" cellspacing="8">
+				  <tr class="nborder" id={{y.rowId}} ng-repeat="y in _6X6Puzzle5.answer">
+				  	<td class="nborder-top cell"  tabindex="{{y.rowId}}{{x.id}}" style="background-color:{{x.bcolor}}" id="{{y.rowId}}{{x.id}}" ng-repeat="x in y.rowValues"></td>
+				  </tr>
+				</table>
+		
+			</td>
+		</tr>
+	</table>
+	<div class="text" id="footer">
+		<div id="select">
+			<a href='#/' tabindex="100" id="back">> </a>
+		</div>
+		<div id="list">Exit</div>
+	</div>
+</div>

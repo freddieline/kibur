@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'Computerized';
+  src: url('../fonts/pixelade.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+a{
+	color:#ffffff;
+	text-decoration:none;
+}
+
+*{
+	box-sizing: border-box;
+	overflow:hidden;
+	  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+     -khtml-user-select: none; /* Konqueror */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  not supported by any browser */
+         pointer-events:none;
+}
+
+
+body{
+	background-color:#000000;
+	color:#ffffff;
+	font-family:'Computerized', Monaco, monospace;
+	font-size: 50px;
+
+    -webkit-font-smoothing: antialiased;
+}
+
+.text{
+	margin-left:20px;
+	margin-top:20px;
+}
+.back{
+	padding-top:50px;
+}
+
+#header,#footer{
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+#grid1 .cell, #grid2 .cell{
+	width:50px;
+	height:50px;
+}
+#logo .cell {
+	width:50px;
+	height:50px;
+}
+
+#select{
+	display:inline-block;
+	width:20px;
+}
+
+#select a{
+	visibility: hidden;
+}
+
+a:focus{
+	visibility: visible;
+	outline:none;
+}
+#select a.selected{
+	visibility: visible;
+}
+
+#list{
+	display:inline-block;
+	margin-left:20px;
+}
+
+#list2{
+	display:inline-block;
+	margin-left:60px;
+}
+
+
+#content{
+	margin-left:20px;
+}
+
+#col1{
+
+	border-left:8px dotted #ffffff;
+	border-bottom:8px dotted #ffffff;
+	border-top:8px dotted #ffffff;
+	border-radius:0px;
+	
+}
+#col2{
+	border-left:8px solid #ffffff;	
+	border-right:8px dotted #ffffff;
+	border-bottom:8px dotted #ffffff;
+	border-top:8px dotted #ffffff;
+	border-radius:0px;
+}
+
+h2{
+	margin-left:20px;
+}
+ul{
+	margin:0px;
+	padding:0px;
+	list-style-type: none;
+}
+
+td{
+	vertical-align: top;
+	border-radius: 5px;
+}
+
+td:focus{
+	outline:none;
+	box-shadow: 0px 0px 0px 8px #fff;
+}

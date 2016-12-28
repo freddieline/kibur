@@ -1,0 +1,835 @@
+{
+  "patterns":[
+    {
+        "difficulty":1,
+        "jumbled":[
+          {
+            "rowId":0,
+            "rowValues":[
+              {"bcolor":"yellow","id":0},
+              {"bcolor":"blue","id":1}
+            ]
+          },
+          {
+            "rowId":1,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"red", "id":1}
+            ]
+          }
+        ],
+        "answer":[
+          {
+            "rowId":0,
+            "rowValues":[
+              {"bcolor":"red","id":0},
+              {"bcolor":"green","id":1}
+            ]
+          },
+          {
+            "rowId":1,
+            "rowValues":[
+              {"bcolor":"yellow","id":0},
+              {"bcolor":"blue", "id":1}
+            ]
+          }
+        ]
+    },
+   
+
+{
+
+    "difficulty":1,
+    "jumbled":[
+      {
+        "rowId":0,
+        "rowValues":[
+          {"bcolor":"green","id":0},
+          {"bcolor":"blue","id":1},
+          {"bcolor":"blue","id":2}
+        
+        ]
+      },
+      {
+        "rowId":1,
+        "rowValues":[
+          {"bcolor":"green","id":0},
+          {"bcolor":"yellow", "id":1},
+          {"bcolor":"red","id":2}
+        ]
+      },
+      {
+        "rowId":2,
+        "rowValues":[
+          {"bcolor":"green","id":0},
+          {"bcolor":"red", "id":1},
+          {"bcolor":"yellow","id":2}
+        ]
+      }
+    ],
+    "answer": [
+      {
+        "rowId":0,
+        "rowValues":[
+          {"bcolor":"red","id":0},
+          {"bcolor":"red","id":1},
+          {"bcolor":"red","id":2}
+
+        ]
+      },
+      {
+        "rowId":1,
+        "rowValues":[
+          {"bcolor":"green","id":0},
+          {"bcolor":"green", "id":1},
+          {"bcolor":"green","id":2}
+        ]
+      },
+      {
+        "rowId":2,
+        "rowValues":[
+          {"bcolor":"blue","id":0},
+          {"bcolor":"blue", "id":1},
+          {"bcolor":"blue","id":2}
+        ]
+      }
+    ]
+    
+  
+}
+
+
+    {
+        "difficulty":1,
+        "jumbled":[
+          {
+            "rowId":0,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"blue","id":1},
+              {"bcolor":"blue","id":2}
+            
+            ]
+          },
+          {
+            "rowId":1,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"yellow", "id":1},
+              {"bcolor":"red","id":2}
+            
+            ]
+          },
+          {
+            "rowId":2,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"red", "id":1},
+              {"bcolor":"yellow","id":2}
+            ]
+          }
+        ],
+        "answer":[
+          {
+            "rowId":0,
+            "rowValues":[
+              {"bcolor":"red","id":0},
+              {"bcolor":"red","id":1},
+              {"bcolor":"red","id":2}
+            ]
+          },
+          {
+            "rowId":1,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"green", "id":1},
+              {"bcolor":"green","id":2}
+            ]
+          },
+          {
+            "rowId":2,
+            "rowValues":[
+              {"bcolor":"blue","id":0},
+              {"bcolor":"blue", "id":1},
+              {"bcolor":"blue","id":2}
+        
+            ]
+          }
+        ]
+    },
+
+
+
+    {
+        "difficulty":1,
+        "jumbled":[
+          {
+            "rowId":0,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"green","id":1},
+              {"bcolor":"red","id":2},
+              {"bcolor":"yellow","id":3}
+            
+            ]
+          },
+          {
+            "rowId":1,
+            "rowValues":[
+              {"bcolor":"blue","id":0},
+              {"bcolor":"blue","id":1},
+              {"bcolor":"red","id":2},
+              {"bcolor":"yellow","id":3}
+            
+            ]
+          },
+          {
+            "rowId":2,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"red", "id":1},
+              {"bcolor":"yellow","id":2},
+              {"bcolor":"blue","id":3}
+            ]
+          },
+          {
+            "rowId":3,
+            "rowValues":[
+              {"bcolor":"blue","id":0},
+              {"bcolor":"red", "id":1},
+              {"bcolor":"green","id":2},
+              {"bcolor":"yellow","id":3}
+            ]
+          }
+        ],
+        "answer":[
+          {
+            "rowId":0,
+            "rowValues":[
+              {"bcolor":"red","id":0},
+              {"bcolor":"red","id":1},
+              {"bcolor":"green","id":2},
+              {"bcolor":"green","id":3}
+          
+            ]
+          },
+          {
+            "rowId":1,
+            "rowValues":[
+              {"bcolor":"red","id":0},
+              {"bcolor":"red","id":1},
+              {"bcolor":"green","id":2},
+              {"bcolor":"green","id":3}
+            
+            ]
+          },
+          {
+            "rowId":2,
+            "rowValues":[
+              {"bcolor":"blue","id":0},
+              {"bcolor":"blue", "id":1},
+              {"bcolor":"yellow","id":2},
+              {"bcolor":"yellow","id":3}
+        
+            ]
+          },
+          {
+            "rowId":3,
+            "rowValues":[
+              {"bcolor":"blue","id":0},
+              {"bcolor":"blue", "id":1},
+              {"bcolor":"yellow","id":2},
+              {"bcolor":"yellow","id":3}
+
+            ]
+          }
+        ]
+    },
+
+
+
+
+    {
+        "difficulty":1,
+        "jumbled":[
+          {
+            "rowId":0,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"blue","id":1},
+              {"bcolor":"blue","id":2},
+              {"bcolor":"red","id":3}
+            
+            ]
+          },
+          {
+            "rowId":1,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"yellow", "id":1},
+              {"bcolor":"red","id":2},
+              {"bcolor":"yellow","id":3}
+            
+            ]
+          },
+          {
+            "rowId":2,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"red", "id":1},
+              {"bcolor":"yellow","id":2},
+              {"bcolor":"blue","id":3}
+            ]
+          },
+          {
+            "rowId":3,
+            "rowValues":[
+              {"bcolor":"blue","id":0},
+              {"bcolor":"red", "id":1},
+              {"bcolor":"green","id":2},
+              {"bcolor":"yellow","id":3}
+            
+            ]
+          }
+        ],
+        "answer":[
+          {
+            "rowId":0,
+            "rowValues":[
+              {"bcolor":"red","id":0},
+              {"bcolor":"red","id":1},
+              {"bcolor":"red","id":2},
+              {"bcolor":"red","id":3}
+          
+            ]
+          },
+          {
+            "rowId":1,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"green", "id":1},
+              {"bcolor":"green","id":2},
+              {"bcolor":"green","id":3}
+            
+            ]
+          },
+          {
+            "rowId":2,
+            "rowValues":[
+              {"bcolor":"blue","id":0},
+              {"bcolor":"blue", "id":1},
+              {"bcolor":"blue","id":2},
+              {"bcolor":"blue","id":2}
+        
+            ]
+          },
+          {
+            "rowId":3,
+            "rowValues":[
+              {"bcolor":"yellow","id":0},
+              {"bcolor":"yellow", "id":1},
+              {"bcolor":"yellow","id":2},
+              {"bcolor":"yellow","id":3}
+
+            ]
+          }
+        ]
+    },
+
+
+    {
+        "difficulty":1,
+        "jumbled":[
+          {
+            "rowId":0,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"blue","id":1},
+              {"bcolor":"blue","id":2},
+              {"bcolor":"red","id":3}
+            
+            ]
+          },
+          {
+            "rowId":1,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"yellow", "id":1},
+              {"bcolor":"red","id":2},
+              {"bcolor":"yellow","id":3}
+            
+            ]
+          },
+          {
+            "rowId":2,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"red", "id":1},
+              {"bcolor":"yellow","id":2},
+              {"bcolor":"blue","id":3}
+            ]
+          },
+          {
+            "rowId":3,
+            "rowValues":[
+              {"bcolor":"blue","id":0},
+              {"bcolor":"red", "id":1},
+              {"bcolor":"green","id":2},
+              {"bcolor":"yellow","id":3}
+            
+            ]
+          }
+        ],
+        "answer":[
+          {
+            "rowId":0,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"red","id":1},
+              {"bcolor":"blue","id":2},
+              {"bcolor":"yellow","id":3}
+          
+            ]
+          },
+          {
+            "rowId":1,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"red", "id":1},
+              {"bcolor":"blue","id":2},
+              {"bcolor":"yellow","id":3}
+            
+            ]
+          },
+          {
+            "rowId":2,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"red", "id":1},
+              {"bcolor":"blue","id":2},
+              {"bcolor":"yellow","id":3}
+        
+            ]
+          },
+          {
+            "rowId":3,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"red", "id":1},
+              {"bcolor":"blue","id":2},
+              {"bcolor":"yellow","id":3}
+
+            ]
+          }
+        ]
+    },
+
+
+
+    {
+        "difficulty":1,
+        "jumbled":[
+          {
+            "rowId":0,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"blue","id":1},
+              {"bcolor":"blue","id":2},
+              {"bcolor":"red","id":3}
+            
+            ]
+          },
+          {
+            "rowId":1,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"yellow", "id":1},
+              {"bcolor":"red","id":2},
+              {"bcolor":"yellow","id":3}
+            
+            ]
+          },
+          {
+            "rowId":2,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"red", "id":1},
+              {"bcolor":"yellow","id":2},
+              {"bcolor":"blue","id":3}
+            ]
+          },
+          {
+            "rowId":3,
+            "rowValues":[
+              {"bcolor":"blue","id":0},
+              {"bcolor":"red", "id":1},
+              {"bcolor":"green","id":2},
+              {"bcolor":"yellow","id":3}
+            
+            ]
+          }
+        ],
+        "answer":[
+          {
+            "rowId":0,
+            "rowValues":[
+              {"bcolor":"red","id":0},
+              {"bcolor":"green","id":1},
+              {"bcolor":"blue","id":2},
+              {"bcolor":"yellow","id":3}
+          
+            ]
+          },
+          {
+            "rowId":1,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"blue", "id":1},
+              {"bcolor":"yellow","id":2},
+              {"bcolor":"red","id":3}
+            
+            ]
+          },
+          {
+            "rowId":2,
+            "rowValues":[
+              {"bcolor":"blue","id":0},
+              {"bcolor":"yellow", "id":1},
+              {"bcolor":"red","id":2},
+              {"bcolor":"green","id":2}
+        
+            ]
+          },
+          {
+            "rowId":3,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"blue", "id":1},
+              {"bcolor":"yellow","id":2},
+              {"bcolor":"red","id":3}
+
+            ]
+          }
+        ]
+    },
+
+
+
+    {
+        "difficulty":1,
+        "jumbled":[
+          {
+            "rowId":0,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"blue","id":1},
+              {"bcolor":"blue","id":2},
+              {"bcolor":"red","id":3}
+            
+            ]
+          },
+          {
+            "rowId":1,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"yellow", "id":1},
+              {"bcolor":"red","id":2},
+              {"bcolor":"yellow","id":3}
+            
+            ]
+          },
+          {
+            "rowId":2,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"red", "id":1},
+              {"bcolor":"yellow","id":2},
+              {"bcolor":"blue","id":3}
+            ]
+          },
+          {
+            "rowId":3,
+            "rowValues":[
+              {"bcolor":"blue","id":0},
+              {"bcolor":"red", "id":1},
+              {"bcolor":"green","id":2},
+              {"bcolor":"yellow","id":3}
+            ]
+          }
+        ],
+        "answer":[
+          {
+            "rowId":0,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"blue","id":1},
+              {"bcolor":"blue","id":2},
+              {"bcolor":"green","id":3}
+          
+            ]
+          },
+          {
+            "rowId":1,
+            "rowValues":[
+              {"bcolor":"yellow","id":0},
+              {"bcolor":"green", "id":1},
+              {"bcolor":"green","id":2},
+              {"bcolor":"red","id":3}
+            
+            ]
+          },
+          {
+            "rowId":2,
+            "rowValues":[
+              {"bcolor":"yellow","id":0},
+              {"bcolor":"green", "id":1},
+              {"bcolor":"green","id":2},
+              {"bcolor":"red","id":3}
+        
+            ]
+          },
+          {
+            "rowId":3,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"blue","id":1},
+              {"bcolor":"blue","id":2},
+              {"bcolor":"green","id":3}
+
+            ]
+          }
+        ]
+    },
+
+
+
+    {
+        "difficulty":1,
+        "jumbled":[
+          {
+            "rowId":0,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"blue","id":1},
+              {"bcolor":"blue","id":2},
+              {"bcolor":"red","id":3},
+              {"bcolor":"red","id":4}
+            ]
+          },
+          {
+            "rowId":1,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"yellow", "id":1},
+              {"bcolor":"red","id":2},
+              {"bcolor":"yellow","id":3},
+              {"bcolor":"red","id":4}
+            ]
+          },
+          {
+            "rowId":2,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"red", "id":1},
+              {"bcolor":"yellow","id":2},
+              {"bcolor":"blue","id":3},
+              {"bcolor":"red","id":4}
+            ]
+          },
+          {
+            "rowId":3,
+            "rowValues":[
+              {"bcolor":"blue","id":0},
+              {"bcolor":"red", "id":1},
+              {"bcolor":"green","id":2},
+              {"bcolor":"yellow","id":3},
+              {"bcolor":"red","id":4}
+            
+            ]
+          },
+          {
+            "rowId":4,
+            "rowValues":[
+              {"bcolor":"yellow","id":0},
+              {"bcolor":"yellow", "id":1},
+              {"bcolor":"yellow","id":2},
+              {"bcolor":"yellow","id":3},
+              {"bcolor":"red","id":4}
+            ]
+          }
+        ],
+        "answer":[
+          {
+            "rowId":0,
+            "rowValues":[
+              {"bcolor":"red","id":0},
+              {"bcolor":"red","id":1},
+              {"bcolor":"red","id":2},
+              {"bcolor":"red","id":3},
+              {"bcolor":"red","id":4}
+          
+            ]
+          },
+          {
+            "rowId":1,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"green", "id":1},
+              {"bcolor":"green","id":2},
+              {"bcolor":"green","id":3},
+              {"bcolor":"red","id":4}
+            
+            ]
+          },
+          {
+            "rowId":2,
+            "rowValues":[
+              {"bcolor":"blue","id":0},
+              {"bcolor":"blue", "id":1},
+              {"bcolor":"blue","id":2},
+              {"bcolor":"blue","id":3},
+              {"bcolor":"red","id":4}
+        
+            ]
+          },
+          {
+            "rowId":3,
+            "rowValues":[
+              {"bcolor":"yellow","id":0},
+              {"bcolor":"yellow", "id":1},
+              {"bcolor":"yellow","id":2},
+              {"bcolor":"yellow","id":3},
+              {"bcolor":"red","id":4}
+            ]
+          },
+          {
+            "rowId":4,
+            "rowValues":[
+              {"bcolor":"yellow","id":0},
+              {"bcolor":"yellow", "id":1},
+              {"bcolor":"yellow","id":2},
+              {"bcolor":"yellow","id":3},
+              {"bcolor":"red","id":4}
+            ]
+          }
+        ]
+    },
+
+
+
+
+
+       {
+        "difficulty":1,
+        "jumbled":[
+          {
+            "rowId":0,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"blue","id":1},
+              {"bcolor":"blue","id":2},
+              {"bcolor":"red","id":3},
+              {"bcolor":"red","id":4}
+            ]
+          },
+          {
+            "rowId":1,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"yellow", "id":1},
+              {"bcolor":"red","id":2},
+              {"bcolor":"yellow","id":3},
+              {"bcolor":"red","id":4}
+            ]
+          },
+          {
+            "rowId":2,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"red", "id":1},
+              {"bcolor":"yellow","id":2},
+              {"bcolor":"blue","id":3},
+              {"bcolor":"red","id":4}
+            ]
+          },
+          {
+            "rowId":3,
+            "rowValues":[
+              {"bcolor":"blue","id":0},
+              {"bcolor":"red", "id":1},
+              {"bcolor":"green","id":2},
+              {"bcolor":"yellow","id":3},
+              {"bcolor":"red","id":4}
+            
+            ]
+          },
+          {
+            "rowId":4,
+            "rowValues":[
+              {"bcolor":"yellow","id":0},
+              {"bcolor":"yellow", "id":1},
+              {"bcolor":"yellow","id":2},
+              {"bcolor":"yellow","id":3},
+              {"bcolor":"red","id":4}
+            ]
+          }
+        ],
+        "answer":[
+          {
+            "rowId":0,
+            "rowValues":[
+              {"bcolor":"red","id":0},
+              {"bcolor":"red","id":1},
+              {"bcolor":"red","id":2},
+              {"bcolor":"red","id":3},
+              {"bcolor":"red","id":4}
+          
+            ]
+          },
+          {
+            "rowId":1,
+            "rowValues":[
+              {"bcolor":"green","id":0},
+              {"bcolor":"green", "id":1},
+              {"bcolor":"green","id":2},
+              {"bcolor":"green","id":3},
+              {"bcolor":"red","id":4}
+            
+            ]
+          },
+          {
+            "rowId":2,
+            "rowValues":[
+              {"bcolor":"blue","id":0},
+              {"bcolor":"blue", "id":1},
+              {"bcolor":"blue","id":2},
+              {"bcolor":"blue","id":3},
+              {"bcolor":"red","id":4}
+        
+            ]
+          },
+          {
+            "rowId":3,
+            "rowValues":[
+              {"bcolor":"yellow","id":0},
+              {"bcolor":"yellow", "id":1},
+              {"bcolor":"yellow","id":2},
+              {"bcolor":"yellow","id":3},
+              {"bcolor":"red","id":4}
+            ]
+          },
+          {
+            "rowId":4,
+            "rowValues":[
+              {"bcolor":"yellow","id":0},
+              {"bcolor":"yellow", "id":1},
+              {"bcolor":"yellow","id":2},
+              {"bcolor":"yellow","id":3},
+              {"bcolor":"red","id":4}
+            ]
+          }
+        ]
+    }
+   
+]
+}

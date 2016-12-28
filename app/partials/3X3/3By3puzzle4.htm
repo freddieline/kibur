@@ -1,0 +1,40 @@
+<div my-enter="doSomething()" id="container">
+	<div class="text" id="header">
+						Grid <span id="gridID">3x3_4</span><br/>
+						Number of moves: {{numberOfMoves}}
+					</div>
+	<table id="content" cellspacing="0" cellpadding="50">	
+		<tr>
+			<td id="col1">
+				
+				<table id="grid1" cellspacing="8">
+				  <tr class="nborder" id={{y.rowId}} ng-repeat="y in _3X3Puzzle4.jumbled">
+				  	<td class="nborder-top cell"  tabindex="{{y.rowId}}{{x.id}}" style="background-color:{{x.bcolor}}" id="{{y.rowId}}{{x.id}}" ng-repeat="x in y.rowValues"></td>
+				  </tr>		
+				</table>
+				
+			</td>
+			<td  id="col2">
+				<table id="grid2" cellspacing="8">
+				  <tr class="nborder" id={{y.rowId}} ng-repeat="y in _3X3Puzzle4.answer">
+				  	<td class="nborder-top cell"  tabindex="{{y.rowId}}{{x.id}}" style="background-color:{{x.bcolor}}" id="{{y.rowId}}{{x.id}}" ng-repeat="x in y.rowValues"></td>
+				  </tr>
+				</table>
+		
+			</td>
+		</tr>
+	</table>
+	<div class="text" id="footer">
+		<div id="select">
+			<a href="javascript:void(0);" tabindex="100" id="reset">> </a>
+			<a href='#/' tabindex="100" id="exit">> </a>
+		</div>
+		<div id="list">
+		<ul>
+			<li>Reset</li>
+			<li>Exit</li>
+		</ul>
+		</div>
+		
+	</div>
+</div>

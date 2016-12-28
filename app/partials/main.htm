@@ -1,0 +1,28 @@
+<table id="logo" cellspacing="8">
+		
+	<tr class="nborder" id={{y.rowId}} ng-repeat="y in logo[0].values">
+  		<td class="nborder-top cell" style="background-color:{{x.bcolor}}" id="{{y.rowId}}{{x.id}}" ng-repeat="x in y.rowValues"></td>
+  	</tr>		
+</table>
+<div class="text">
+	<div my-menu="doSomething()">
+		<div id='select'>
+			<ul>
+				<a class='selected' href='#puzzles'><li >> </li></a>
+				<a href='#controls'><li>> </li></a>
+				<a href='#settings'><li>> </li></a>
+				<a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-via="freddieline1" data-show-count="false">> </a>
+				<a href='#credits'><li>> </li></a>
+			</ul>
+		</div>
+		<div id='list'>
+			<ul>
+				<li>Select game grid</li>
+				<li>Controls</li>
+				<li>Settings</li>
+				<li>Tweet</li>
+				<li>Credits</li>
+			</ul>
+		</div>
+	</div>
+</div>

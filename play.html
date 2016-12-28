@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<body>
+<div class=container>
+
+	<div ng-app="myApp" ng-controller="myCtrl" >
+	
+				<div class="text" id="header">
+					Puzzle #{{puzzleNumber}}<br/>
+					Number of moves: {{numberOfMoves}}
+				</div>
+		<table id="content" cellspacing="0" cellpadding="50">	
+			<tr>
+				<td id="col1">
+					<div my-enter="doSomething()">
+					<table id="grid1" cellspacing="8">
+					  <tr class="nborder" id={{y.rowId}} ng-repeat="y in myData[0].jumbled">
+					  	<td class="nborder-top cell"  tabindex="{{y.rowId}}{{x.id}}" style="background-color:{{x.bcolor}}" id="{{y.rowId}}{{x.id}}" ng-repeat="x in y.rowValues"></td>
+					  </tr>		
+					</table>
+					</div>
+				</td>
+				<td  id="col2">
+					<table id="grid2" cellspacing="8">
+					  <tr class="nborder" id={{y.rowId}} ng-repeat="y in myData[0].answer">
+					  	<td class="nborder-top cell"  tabindex="{{y.rowId}}{{x.id}}" style="background-color:{{x.bcolor}}" id="{{y.rowId}}{{x.id}}" ng-repeat="x in y.rowValues"></td>
+					  </tr>
+					</table>
+			
+				</td>
+			</tr>
+	
+		</table>
+		<div class="text" id="footer">
+			<div id="select">
+				<a href=index.html tabindex="100" id="back">> </a>
+			</div>
+			<div id="list">Back</div>
+		
+		</div>
+</div>
+<script>
+$( document ).ready(function(){
+
+	console.log("ready")
+	var currCell = $("#grid1").find('tr:eq(0)').find('td:eq(0)');
+	currCell.focus();
+
+	$('html').click(function(){
+		$("#grid1").find('tr:eq(0)').find('td:eq(0)').focus();
+	});
+
+	$("td").mousedown(function(event){
+		console.log(event);
+		event.stopImmediatePropagation();
+		event.stopPropagation();
+		event.preventDefault();
+	});
+
+	$('html').keydown(function(event){
+		console.log('shift');
+		var id = document.activeElement.id;
+		if (event.which == 9) {
+			// Tab
+		        event.preventDefault();
+		        if(id=='back'){
+		        	console.log("play");
+		        	$("#grid1").find('tr:eq(0)').find('td:eq(0)').focus();
+		        	$('a').removeClass("selected");
+		        }
+		        else{
+		        	console.log("back");
+		        	currCell = document.getElementById("back");
+					$('a').eq(0).addClass("selected");
+					currCell.focus();
+		        }
+		}
+	});
+});
+
+</script> 
+<script src="controller.js"></script> 
+</body>
+</html>

@@ -1,0 +1,36 @@
+  {
+      "difficulty":1,
+      "jumbled":[
+        {
+          "rowId":0,
+          "rowValues":[
+            {"bcolor":"yellow","id":0},
+            {"bcolor":"blue","id":1}
+          ]
+        },
+        {
+          "rowId":1,
+          "rowValues":[
+            {"bcolor":"green","id":0},
+            {"bcolor":"red", "id":1}
+          ]
+        }
+      ],
+      "answer":[
+        {
+          "rowId":0,
+          "rowValues":[
+            {"bcolor":"red","id":0},
+            {"bcolor":"green","id":1}
+          ]
+        },
+        {
+          "rowId":1,
+          "rowValues":[
+            {"bcolor":"yellow","id":0},
+            {"bcolor":"blue", "id":1}
+          ]
+        }
+      ]
+  }
+   
