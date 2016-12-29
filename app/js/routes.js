@@ -13,6 +13,11 @@ app.config(function($routeProvider) {
         controller : "menuController"
     })
 
+    .when("/home", {
+        templateUrl : "app/partials/main.htm",
+        controller : "menuController"
+    })
+
     //Puzzle folders 
     .when("/2X2Puzzles", {
         templateUrl : "app/partials/2X2Puzzles.htm",
@@ -130,7 +135,7 @@ app.config(function($routeProvider) {
     })
 
     .otherwise({
-        templateUrl : "app/partials/main.htm",
+        templateUrl : "./app/partials/main.htm",
         controller : "menuController"
     });
 });
